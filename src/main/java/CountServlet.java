@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello")
 
-public class HelloWorldServlet extends HttpServlet {
+public class CountServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
@@ -16,3 +16,4 @@ public class HelloWorldServlet extends HttpServlet {
         out.println("<h1>Hey there all you cool cats and kittens!</h1>");
     }
 }
+
