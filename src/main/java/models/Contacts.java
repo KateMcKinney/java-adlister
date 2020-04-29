@@ -1,8 +1,10 @@
+package models;
+
 import java.util.List;
 
 // INTERFACE FOR CONTACT BEAN
 public interface Contacts {
-    // List all contacts (List<Contact>)
+    // List all contacts (List<Models.Contact>)
     List<Contact> getContacts();
 
     // Method to make new contact (will assign new id if we don't)

@@ -1,4 +1,4 @@
-//This is our contact bean
+package models;//This is our contact bean
 
 public class Contact {
     private long id;
